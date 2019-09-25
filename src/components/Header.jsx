@@ -5,10 +5,8 @@ import '../App.css';
 class Header extends Component {
     render() {
         return (
-            <div >
-                <div>
-                    <h2 className="welcome">Welcome to Pammi's Corner</h2>
-                </div>
+            <div>
+                <h2 className="welcome">Welcome to Pammi's Corner</h2>
             </div>
         );
     }
