@@ -5,8 +5,8 @@ import '../App.css';
 class Header extends Component {
     render() {
         return (
-            <div className="App">
-                <div className="App-header">
+            <div >
+                <div>
                     <h2 className="welcome">Welcome to Pammi's Corner</h2>
                 </div>
             </div>
