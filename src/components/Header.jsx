@@ -10,7 +10,6 @@ class Header extends Component {
                     <li>My Story</li>
                     <li>My Ideas</li>
                     <li>My CV</li>
-                    <li>  </li>
                 </ul>
             </div>
         );
