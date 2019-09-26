@@ -7,6 +7,8 @@ class Header extends Component {
             <div>
                 <h2 className="welcome">Welcome to Pammi's Corner</h2>
             </div>
+            <div>
+                </div>
         );
     }
 }
