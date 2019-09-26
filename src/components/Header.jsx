@@ -9,6 +9,8 @@ class Header extends Component {
                 <ul className="header-right"> 
                     <li>About Me</li>
                     <li>My Ideas</li>
+                    <li> </li>
+                    <li>  </li>
                 </ul>
             </div>
         );
