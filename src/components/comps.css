@@ -9,6 +9,10 @@
     color: white;
 }
 
+h2 {
+    display: inline-block;
+}
+
 .welcome {
     text-align: left;
     padding-left: 20px;
