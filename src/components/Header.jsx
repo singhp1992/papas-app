@@ -7,7 +7,7 @@ class Header extends Component {
             <div>
                 <h2 className="welcome">Welcome to Pammi's Corner</h2>
                 <ul className="header-right"> 
-                    <li>Welcome to Pammi's Corner</li>
+                    <li className="welcome">Welcome to Pammi's Corner</li>
                     <li>About Me</li>
                 </ul>
             </div>
