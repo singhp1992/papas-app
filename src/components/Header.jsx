@@ -6,7 +6,7 @@ class Header extends Component {
     render() {
         return (
             <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                <Navbar.Brand href="#home">Welcome to Pammi's Corner</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
             </Navbar>
         );
