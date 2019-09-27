@@ -7,7 +7,6 @@ class Header extends Component {
         return (
             <Navbar bg="light" expand="lg">
                 <Navbar.Brand href="#home">Welcome to Pammi's Corner</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
             </Navbar>
         );
     }
