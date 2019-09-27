@@ -4,14 +4,7 @@ import './comps.css';
 class Header extends Component {
     render() {
         return (
-            <div>
-                <h2 className="welcome">Welcome to Pammi's Corner</h2>
-                <ul className="header-right"> 
-                    <li>My Story</li>
-                    <li>My Ideas</li>
-                    <li>My CV</li>
-                </ul>
-            </div>
+            
         );
     }
 }
