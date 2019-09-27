@@ -14,6 +14,3 @@ class Header extends Component {
 }
 
 export default Header;
-
-// make columns for the header
-// grid
