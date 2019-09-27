@@ -9,16 +9,6 @@
     color: white;
 }
 
-.welcome {
-    text-align: left;
-    padding-left: 20px;
-    width: 50%;
-}
-
-.header-right {
-    text-align: right;
-    list-style: none;
-}
 
 /* add grid so that you dont need mediaq */
 

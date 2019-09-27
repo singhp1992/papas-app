@@ -1,22 +1,16 @@
 import React, { Component } from 'react';
+import Navbar from 'react-bootstrap/Navbar'
 import './comps.css';
 
 class Header extends Component {
     render() {
         return (
-            <div>
-                <h2 className="welcome">Welcome to Pammi's Corner</h2>
-                <ul className="header-right"> 
-                    <li>My Story</li>
-                    <li>My Ideas</li>
-                    <li>My CV</li>
-                </ul>
-            </div>
+            <Navbar bg="light" expand="lg">
+                <Navbar.Brand href="#home">Welcome to Pammi's Corner</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            </Navbar>
         );
     }
 }
 
 export default Header;
-
-// make columns for the header
-// grid
