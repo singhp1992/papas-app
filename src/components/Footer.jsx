@@ -17,6 +17,9 @@ class Footer extends Component {
                     <Nav>
                         <Nav.Link href="/about">About Me</Nav.Link>
                     </Nav>
+                    <Nav> 
+                        &copy; Copyright 2019
+                    </Nav>
                 </Navbar>
             </div>
         );
