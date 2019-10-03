@@ -10,7 +10,7 @@ import './comps.css';
 class Header extends Component {
     render() {
         return (
-            <Navbar bg="light" expand="lg">
+            <Navbar bg="light" expand="lg" fixed="top">
                 <Navbar.Brand href="#home">Welcome to Pammi's Corner</Navbar.Brand>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
@@ -22,10 +22,10 @@ class Header extends Component {
                             <NavDropdown.Item href="#action/3.3">Hobbies</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
-                    {/* <Form inline>
+                    <Form inline>
                         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
                         <Button variant="outline-success">Search</Button>
-                    </Form> */}
+                    </Form>
                 </Navbar.Collapse>
             </Navbar>
         );
