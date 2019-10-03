@@ -7,7 +7,7 @@ class Footer extends Component {
     render() {
         return (
             <div>
-                <Navbar fixed="bottom" className="justify-content-center">
+                <Navbar bg="light" fixed="bottom" className="justify-content-center">
                     <Nav.Item>
                         <Nav.Link href="/home">Home</Nav.Link>
                     </Nav.Item>
