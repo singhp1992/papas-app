@@ -1,21 +1,27 @@
 import React, { Component } from 'react';
-import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import Navbar from 'react-bootstrap/Navbar';
 import './comps.css';
 
 class Footer extends Component {
     render() {
         return (
             <div>
-                <Navbar bg="light" expand="lg" fixed="bottom">
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="mr-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#shop">Shop</Nav.Link>
-                            <Nav.Link href="#about">About Me</Nav.Link>
-                        </Nav>
-                    </Navbar.Collapse>
+                <Navbar fixed="bottom" className="justify-content-center" activeKey="/home">
+                    <Nav.Item>
+                        <Nav.Link href="/home">Active</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link eventKey="link-1">Link</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link eventKey="link-2">Link</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link eventKey="disabled" disabled>
+                            Disabled
+                        </Nav.Link>
+                    </Nav.Item>
                 </Navbar>
             </div>
         );

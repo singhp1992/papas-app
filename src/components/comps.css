@@ -9,6 +9,10 @@
     color: white;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
+
 
 /* add grid so that you dont need mediaq */
 
