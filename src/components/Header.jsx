@@ -18,7 +18,6 @@ class Header extends Component {
                         <Nav.Link href="#shop">Shop</Nav.Link>
                         <NavDropdown title="About Me" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Medical Background</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">How I started</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.3">Hobbies</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
