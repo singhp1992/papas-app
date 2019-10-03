@@ -5,7 +5,7 @@ class Footer extends Component {
     render() {
         return (
             <div>
-                <Navbar bg="light" expand="lg" fixed="top">
+                <Navbar bg="light" expand="lg" fixed="bottom">
                     <Navbar.Brand href="#home">Welcome to Pammi's Corner</Navbar.Brand>
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
