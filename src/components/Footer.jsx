@@ -8,15 +8,15 @@ class Footer extends Component {
         return (
             <div>
                 <Navbar bg="light" fixed="bottom" className="justify-content-center">
-                    <Nav.Item>
+                    <Nav>
                         <Nav.Link href="/home">Home</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
+                    </Nav>
+                    <Nav>
                         <Nav.Link href="/shop">Shop</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
+                    </Nav>
+                    <Nav>
                         <Nav.Link href="/about">About Me</Nav.Link>
-                    </Nav.Item>
+                    </Nav>
                 </Navbar>
             </div>
         );
