@@ -9,7 +9,6 @@ class Footer extends Component {
         return (
             <div>
                 <Navbar bg="light" expand="lg" fixed="bottom">
-                    <Navbar.Brand href="#home">Pammi's Corner</Navbar.Brand>
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
                             <Nav.Link href="#home">Home</Nav.Link>
