@@ -15,7 +15,7 @@ class Footer extends Component {
                         <Nav.Link href="/shop">Shop</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link>Link</Nav.Link>
+                        <Nav.Link href="/about">About Me</Nav.Link>
                     </Nav.Item>
                 </Navbar>
             </div>
